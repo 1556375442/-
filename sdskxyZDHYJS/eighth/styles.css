@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #081832;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+.title {
+  color: #fff;
+  font-size: 30px;
+}
+.modules {
+  display: flex;
+}
+.module:hover {
+  box-shadow: -10px 0px 15px #034c6a inset, /*å·¦è¾¹é˜´å½±*/ 0px -10px 15px #034c6a inset, /*ä¸Šè¾¹é˜´å½±*/ 10px 0px 15px #034c6a inset, /*å³è¾¹é˜´å½±*/ 0px 10px 15px #034c6a inset;
+  box-sizing: border-box;
+}
+.module:active {
+  color: #cff013;
+}
+.active {
+  color: yellow;
+  box-shadow: -10px 0px 15px #034c6a inset, /*å·¦è¾¹é˜´å½±*/ 0px -10px 15px #034c6a inset, /*ä¸Šè¾¹é˜´å½±*/ 10px 0px 15px #034c6a inset, /*å³è¾¹é˜´å½±*/ 0px 10px 15px #034c6a inset;
+  box-sizing: border-box;
+}
+.module {
+  color: #fff;
+  margin: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+.content {
+  padding: 20px;
+}
+.module-dropdown {
+  display: none;
+  /* 隐藏下拉框 */
+}
+.modules {
+  display: flex;
+}
+.module {
+  color: #fff;
+  margin: 10px;
+  cursor: pointer;
+}
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+.chart-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  box-shadow: -10px 0px 15px #034c6a inset, /*å·¦è¾¹é˜´å½±*/ 0px -10px 15px #034c6a inset, /*ä¸Šè¾¹é˜´å½±*/ 10px 0px 15px #034c6a inset, /*å³è¾¹é˜´å½±*/ 0px 10px 15px #034c6a inset;
+  border: 1px solid #034c6a;
+  box-sizing: border-box;
+  position: relative;
+}
+.chart-box #alarmMessage1,
+.chart-box #alarmMessage2,
+.chart-box #alarmMessage3,
+.chart-box #alarmMessage4,
+.chart-box #alarmMessage5,
+.chart-box #alarmMessage6,
+.chart-box #alarmMessage7,
+.chart-box #alarmMessage8,
+.chart-box #alarmMessage9,
+.chart-box #alarmMessage10,
+.chart-box #alarmMessage11,
+.chart-box #alarmMessage12,
+.chart-box #alarmMessage13,
+.chart-box #alarmMessage14,
+.chart-box #alarmMessage15,
+.chart-box #alarmMessage16,
+.chart-box #alarmMessage17 {
+  position: absolute;
+  border-radius: 21px;
+  height: 20px;
+  width: 20px;
+  top: -16px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 24px;
+  right: 5%;
+  background-color: red;
+  /* 设置红色背景颜色 */
+}
+.chart-box .chart_title {
+  position: absolute;
+  background-color: #0ba5e2;
+  border-radius: 18px;
+  height: 35px;
+  width: 60%;
+  top: -16px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  left: 20%;
+  line-height: 35px;
+  text-align: center;
+}
+.chart {
+  height: 300px;
+}
+/* 媒体查询，适应手机端 */
+@media (max-width: 500px) {
+  .modules {
+    display: none;
+    /* 隐藏模块列表 */
+  }
+  .module-dropdown {
+    display: block;
+    /* 显示下拉框 */
+  }
+  .content {
+    grid-template-columns: 1fr;
+  }
+}
+.statuses {
+  display: flex;
+}
+.status {
+  flex: 1;
+  text-align: center;
+  margin: 0 5px;
+  /* 调整间距 */
+}
+.status img {
+  width: 50px;
+  /* 图像宽度 */
+  height: 50px;
+  /* 图像高度 */
+  display: block;
+  margin: 0 auto;
+}
+.status p {
+  margin: 5px 0;
+  color: white;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.fan {
+  animation: rotate 2s linear infinite;
+  /* 2秒一个循环，可以根据需要调整 */
+}

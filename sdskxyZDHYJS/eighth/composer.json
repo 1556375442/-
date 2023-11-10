@@ -1,0 +1,18 @@
+{
+    "name": "nicola/php",
+    "description": "这是我的第一个框架开发，希望一切顺利",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nicola\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nicola",
+            "email": "1102415225@qq.com"
+        }
+    ],
+    "require": {"php-mqtt/client": "^1.0"}
+}

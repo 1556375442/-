@@ -1,0 +1,140 @@
+{
+"sensors": [
+        {
+            "alarm": "0",
+            "fault": "0",
+            "label": "氢气浓度 GE101",
+            "name": "GE101",
+            "unit": "ppm",
+            "value": "0.00"
+        },
+        {
+            "alarm": "0",
+            "fault": "0",
+            "label": "氢气浓度 GE102",
+            "name": "GE102",
+            "unit": "ppm",
+            "value": "0.00"
+        },
+        {
+            "alarm": "0",
+            "fault": "0",
+            "label": "氢气浓度 GE103",
+            "name": "GE103",
+            "unit": "ppm",
+            "value": "0.00"
+        },
+        {
+            "alarm": "0",
+            "fault": "0",
+            "label": "氢气浓度 GE104",
+            "name": "GE104",
+            "unit": "ppm",
+            "value": "0.00"
+        },
+        {
+            "alarm": "0",
+            "fault": "0",
+            "label": "氢气浓度 GE105",
+            "name": "GE105",
+            "unit": "ppm",
+            "value": "0.00"
+        },
+        {
+            "alarm": "0",
+            "fault": "0",
+            "label": "氢气浓度 GE106",
+            "name": "GE106",
+            "unit": "ppm",
+            "value": "0.00"
+        },
+        {
+            "alarm": "0",
+            "fault": "0",
+            "label": "氢气浓度 GE107",
+            "name": "GE107",
+            "unit": "ppm",
+            "value": "0.00"
+        },
+        {
+            "alarm": "0",
+            "fault": "0",
+            "label": "氢气浓度 GE108",
+            "name": "GE108",
+            "unit": "ppm",
+            "value": "0.00"
+        },
+        {
+            "alarm": "0",
+            "fault": "0",
+            "label": "氢气浓度 GE109",
+            "name": "GE109",
+            "unit": "ppm",
+            "value": "0.00"
+        },
+        {
+            "alarm": "0",
+            "fault": "0",
+            "label": "氢气浓度 GE110",
+            "name": "GE110",
+            "unit": "ppm",
+            "value": "0.00"
+        },
+        {
+            "alarm": "0",
+            "fault": "0",
+            "label": "氢气浓度 GE111",
+            "name": "GE111",
+            "unit": "ppm",
+            "value": "0.00"
+        },
+        {
+            "alarm": "0",
+            "fault": "0",
+            "label": "氧气浓度 GO112",
+            "name": "GO112",
+            "unit": "ppm",
+            "value": "21.49"
+        },
+        {
+            "alarm": "0",
+            "fault": "0",
+            "label": "氢气气瓶压力 PT1",
+            "name": "PT1",
+            "unit": "MPa",
+            "value": "0.61"
+        },
+        {
+            "alarm": "0",
+            "fault": "0",
+            "label": "氢气减压压力 PT2",
+            "name": "PT2",
+            "unit": "MPa",
+            "value": "0.61"
+        },
+        {
+            "alarm": "0",
+            "fault": "0",
+            "label": "氮气气瓶压力 PT3",
+            "name": "PT3",
+            "unit": "MPa",
+            "value": "0.33"
+        },
+        {
+            "alarm": "0",
+            "fault": "0",
+            "label": "氮气减压压力 PT4",
+            "name": "PT4",
+            "unit": "MPa",
+            "value": "-0.00"
+        },
+        {
+            "alarm": "0",
+            "fault": "0",
+            "label": "流量计 FM101",
+            "name": "FM101",
+            "unit": "NLPM",
+            "value": "0.00"
+        }
+    ]
+} 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <data1>
+        <paraname>soc</paraname>
+        <value>80</value>
+    </data1>
+    <data1>
+        <paraname>current</paraname>
+        <value>180</value>
+    </data1>
+    <data1>
+        <paraname>vol</paraname>
+        <value>220</value>
+    </data1>
+</data>

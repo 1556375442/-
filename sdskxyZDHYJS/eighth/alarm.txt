@@ -1,0 +1,44 @@
+{
+    "state": [
+        {
+            "label": "报警状态222",
+            "name": "AlarmState",
+            "value": "false"
+        },
+        {
+            "label": "手动报警状态",
+            "name": "ManualAlarmState",
+            "value": "false"
+        },
+        {
+            "label": "消音状态",
+            "name": "BuzzerOffState",
+            "value": "false"
+        },
+        {
+            "label": "低压自动切换",
+            "name": "AutoChangeFault",
+            "value": "false"
+        },
+        {
+            "label": "风机状态",
+            "name": "fanState",
+            "value": "1"
+        },
+        {
+            "label": "紧急切断阀",
+            "name": "POV101",
+            "value": "0"
+        },
+        {
+            "label": "氢气阀门1",
+            "name": "POV102",
+            "value": "false"
+        },
+        {
+            "label": "氢气阀门2",
+            "name": "POV103",
+            "value": "false"
+        }
+    ]
+}

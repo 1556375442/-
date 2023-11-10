@@ -1,0 +1,16 @@
+{"DeviceID":"单片测试台",
+"Status":"0",
+"Lifesignal":"0",
+"Data":
+    {
+        "DeviceData":[{"Name":"H2_SetFlow","Value":"13.7","Unit":"slpm"},
+                    {"Name":"H2_TempInt","Value":"8","Unit":"℃"},
+                    {"Name":"H2_TempOut","Value":"9","Unit":"℃"},
+                    {"Name":"CellV01","Value":"81","Unit":"V"},
+                    {"Name":"CellV02","Value":"28","Unit":"V"},
+                    {"Name":"CellV03","Value":"8","Unit":"V"},
+                    {"Name":"CellV04","Value":"8","Unit":"V"},
+                    {"Name":"H2_SetP","Value":"8","Unit":"kpa"}]
+    }      
+}
+        
